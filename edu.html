@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="autor" content="Ernesto Ayala Pareja">
+<title>Curriculum Vitae</title>
+</head>
+
+<body style="position: relative">
+	<header style="text-align: center">
+		<div>
+			<a href="index.html"><img src="img/logo.svg" alt="Servicios Seradom" width="30%"></a>
+			<h1 style="color: chocolate"><strong>Curriculum Vitae</strong></h1>
+			<h2 style="color: darkslategray">Ernesto Ayala Pareja</h2>
+			<h3 style="color: cornflowerblue">02 de Julio de 1986</h3>
+			<h3 style="color: cornflowerblue">Nacido en la Ciudad de México</h3>
+		</div>
+	</header>
+	<nav style="text-align: center">
+		<div>
+			<ul style="list-style-type: none">
+				<li><a href="index.html" style="color: cadetblue; text-decoration: none;">Inicio</a></li>
+				<li><a href="edu.html" style="color: cadetblue; text-decoration: none;">Educación</a></li>
+				<li><a href="xp.html" style="color: cadetblue; text-decoration: none;">Experiencia</a></li>
+			</ul>
+		</div>
+	</nav>
+	<article style="text-align: center">
+		<h2>Educación</h2>
+		<table border="2" bgcolor="#A07F80" bordercolor="#F02125" cellpadding="5" align="center">
+			<tr style="padding: 5px"  bgcolor="#C964A0">
+				<th>Año</th><th>Institución</th><th>Lugar</th><th>Grado</th><th>¿Culminado?</th>
+			</tr>
+			<tr>
+				<th>1993</th><th>Instituto Máxico</th><th>CDMX</th><th>Primaria</th><th>Si</th>
+			</tr>
+			<tr bgcolor="#C9A0A1">
+				<th>1999</th><th>Colegio Morelos</th><th>Morelos</th><th>Secundaria</th><th>Si</th>
+			</tr>
+			<tr>
+				<th>2002</th><th>Colegio Morelos</th><th>Morelos</th><th>Preparatoria</th><th>Si</th>
+			</tr>
+			<tr bgcolor="#C9A0A1">
+				<th>2006</th><th>UAEM: Ciencias Computacionales</th><th>Morelos</th><th>Licenciatura</th><th>No</th>
+			</tr>
+			<tr>
+				<th>2012</th><th>UNAD: Ing Energía Renovable</th><th>En línea</th><th>Licenciatura</th><th>No</th>
+			</tr>
+			<tr bgcolor="#C9A0A1">
+				<th>2018</th><th>Administación - Informática</th><th>CDMX</th><th>Licenciatura</th><th>Cursando</th>
+			</tr>
+		</table>
+		<form>
+			<legend><h3>Agregar más Estudios</h3></legend>
+			<label for="año">Año</label>
+				<input type="number" id="año" min="1900" max="2100">
+			<label for="ins">Institución</label>
+				<input type="text" id="ins">
+			<label for="lugar">Lugar</label>
+				<input type="text" id="lugar">
+			<label for="grado">Grado</label>
+				<select id="grado">
+					<option value="Kinder">Kinder</option>
+					<option value="Primaria">Primaria</option>
+					<option value="Secundaria">Secundaria</option>
+					<option value="Preparatoria">Preparatoria</option>
+					<option value="Licenciatura">Licenciatura</option>
+					<option value="Especialidad">Espacialidad</option>
+					<option value="Maestría">Maestría</option>
+					<option value="Doctorado">Doctorado</option>
+					<option value="Inter">Inter</option>
+					<option value="Certificación">Certificación</option>
+				</select>
+			<label for="fin" id="fin">¿Culminado?</label>
+				<label>Si</label>
+				<input type="radio" value="Si" checked>
+				<label>No</label>
+				<input type="radio" value="No">
+				<label>Cursando</label>
+				<input type="radio" value="Cursando"><br><br><br>
+			<input type="submit" value="Guardar" id="submit">
+			<input type="reset">
+		</form>
+	</article>
+	<br><br><br><br><br><br>
+	<footer style="text-align: center">
+    <div>2018 - Creado por <a href="http://seradom.com.mx"><strong>Servicios Seradom</strong></a>
+		 <a href="mailto:decreesofhuman@hotmail.com">Email: decreesofhuman@hotmail.com</a>	
+	</div>
+  	</footer>
+</body>
+</html>
